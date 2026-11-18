@@ -1,0 +1,15 @@
+{
+  "name": "my-vapi-x402",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.7.4",
+    "x402-hono": "^0.4.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.0"
+  }
+}
