@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 
 const app = new Hono();
 
-const PAY_TO = '0xdD4ce7C4343d17624b82eb85F0Fa92bd75F086bc';
+const PAY_TO = '0x40291A67AA3854255A01238acd3451ecCa2748D1';
 
 app.all('/hello', (c) => {
   const paymentHeader = c.req.header('PAYMENT-SIGNATURE') || c.req.header('X-PAYMENT');
